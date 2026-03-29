@@ -16,7 +16,7 @@
 
 ## 🚀 Быстрый старт (Ubuntu/Debian)
 
-### 1. Подготовка окружения
+# 1. Подготовка окружения
 ```bash
 # Создаем рабочую директорию
 sudo mkdir -p /opt/amnezia_bot && cd /opt/amnezia_bot
@@ -30,7 +30,9 @@ Bash
 python3 -m venv venv
 source venv/bin/activate
 pip install aiogram apscheduler pytz segno python-dotenv
-3. Настройка переменных (.env)
+
+
+# 3. Настройка переменных (.env)
 Создайте файл .env и добавьте ваши данные:
 
 BOT_TOKEN (от BotFather)
