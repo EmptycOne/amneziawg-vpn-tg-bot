@@ -23,7 +23,9 @@ sudo mkdir -p /opt/amnezia_bot && cd /opt/amnezia_bot
 
 # Устанавливаем системные зависимости
 sudo apt update && sudo apt install -y python3-pip python3-venv docker.io openssl
-2. Настройка виртуального окружения
+
+
+##2. **Настройка виртуального окружения**
 Bash
 python3 -m venv venv
 source venv/bin/activate
